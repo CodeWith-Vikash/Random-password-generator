@@ -11,6 +11,7 @@ copyBtn.addEventListener('click',()=>{
     input.select()
     input.setSelectionRange=(0,9999)
     navigator.clipboard.writeText(input.value)
+    alert("password coppied ")
 })
 
 const chars="0123456789abcdefghijklmnopqrstuvwxtz!@#$%^&*()_+?:{}[]ABCDEFGHIJKLMNOPQRSTUVWXYZ"
